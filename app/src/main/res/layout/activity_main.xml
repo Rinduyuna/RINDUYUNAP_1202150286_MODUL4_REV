@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rinduyuna.rinduyunap_1202150286_modul4.MahasiswaActivity"
+    >
+
+    <TextView
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="MAIN MENU"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/listNama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mainMenu"
+        android:layout_alignStart="@+id/mainMenu"
+        android:layout_below="@+id/mainMenu"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="tampilNama"
+        android:text="List Nama" />
+
+    <Button
+        android:id="@+id/cariGambar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listNama"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="cariGambar"
+        android:text="Cari Gambar" />
+
+</LinearLayout>
